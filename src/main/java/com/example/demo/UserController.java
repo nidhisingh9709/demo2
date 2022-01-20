@@ -16,5 +16,7 @@ public class UserController {
 	@PostMapping("/user")
 	void createUser(@RequestBody User user) {
 		System.out.println(user.getName());
+		System.out.println("Hello");
+		//new things to be added
 	}
 }
